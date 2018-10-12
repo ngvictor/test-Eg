@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+}
+html {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: $main;
+	font-family: $navigo-font;
+	font-weight: normal;
+	color: $second;
+}

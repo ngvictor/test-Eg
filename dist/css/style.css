@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: "Navigo";
+  font-weight: normal;
+  color: #3D4252; }
+
+@font-face {
+  font-family: 'Navigo';
+  src: url(../src/fonts/font_navigo/Navigo-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Navigo';
+  src: url(../src/fonts/font_navigo/Navigo-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Navigo';
+  src: url(../src/fonts/font_navigo/Navigo-Light.ttf) format("truetype");
+  font-weight: lighter;
+  font-style: normal; }
+
+.header {
+  width: 100%; }
+
+.form {
+  display: flex;
+  color: #3D4252;
+  text-transform: uppercase;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 0 100px;
+  height: 64px;
+  min-width: 1400px;}
+  .form:nth-child(2) {
+    background: #3D4252;
+    color: #fff; }
+  .form > div {
+    padding: 14px 0; }
+  .form__languages {
+    text-align: left;
+    flex: 0.1; }
+    .form__languages button {
+      width: 36px;
+      height: 36px;
+      background: none;
+      border: none;
+      border-radius: 100%;
+      font-family: "Navigo";
+      font-weight: normal;
+      color: #3D4252;
+      font-size: 11px;
+      text-align: center;
+      text-transform: uppercase;
+      cursor: pointer; }
+    .form__languages .active {
+      background: #3D4252;
+      color: #fff; }
+  .form__time {
+    display: flex;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: left;
+    flex: 1; }
+    .form__time span {
+      padding-left: 15px;
+      display: inline-block;
+      line-height: 18px; }
+      .form__time span a {
+        border-bottom: 1px solid #3D4252;
+        cursor: pointer; }
+  .form__social ul {
+    display: flex;
+    padding: 0; }
+    .form__social ul li {
+      list-style: none;
+      margin-right: 6px; }
+      .form__social ul li svg {
+        fill: #2694F7; }
+  .form__search {
+    flex: 0.1; }
+  .form__map div {
+    line-height: 16px;
+    padding: 7px 16px;
+    border: 2px solid #656C81;
+    border-radius: 17px; }
+  .form__nav {
+    flex: 1; }
+    .form__nav ul {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      padding: 0; }
+      .form__nav ul li {
+        list-style: none;
+        font-size: 12px;
+        line-height: 35px;
+        cursor: pointer;
+        padding: 0 10px; }
+  .form__cabinet {
+    width: 131px;
+    line-height: 34px; }
+
+.cabinet {
+  border: 2px solid #656C81;
+  border-radius: 17px;
+  padding-left: 16px;
+  display: flex; }
+  .cabinet__value {
+    flex: 1; }
+    .cabinet__value .number {
+      background-color: #2694F7;
+      border-radius: 100%;
+      width: 22px;
+      height: 22px;
+      margin: 6px 8px;
+      text-align: center;
+      line-height: 22px; }
+
+.bitmap {
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fff;
+  padding: 116px 0;
+  background: url('../img/backgrounds/bg.png'); 
+  background-size: cover;}
+  .bitmap h2 {
+    font-size: 32px;
+    font-weight: 700; }
+  .bitmap h1 {
+    font-size: 52px;
+    font-weight: 300; }
+
+.icon {
+  border: 1px solid #656C81;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px; }
+
+.clock {background: url('../img/clock.svg') no-repeat center;}
+.vk {background: url('../img/vk.svg') no-repeat center;}
+.fb {background: url('../img/fb.svg') no-repeat center;}
+.ig {background: url('../img/instagram.svg') no-repeat center;}
+.yt {background: url('../img/youtube.svg') no-repeat center;}
+
+
+/*# sourceMappingURL=style.css.map*/
